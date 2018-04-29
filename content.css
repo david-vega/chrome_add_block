@@ -1,0 +1,11 @@
+div.promoted-tweet,
+div.tweet-has-context[data-component-context*="suggest_activity_tweet"],
+div#tads,
+li[data-item-type="who_to_follow_entry"],
+[id^=google_ads_iframe]
+{
+  height: 0 !important;
+  width: 0 !important;
+  display: none !important;
+  background: red !important;
+}
